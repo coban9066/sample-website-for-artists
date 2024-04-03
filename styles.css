@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(-45deg,red,rgb(0, 0, 0),rgba(0, 183, 255, 0.432));
+    background-size: 400% 400%;
+    position: relative;
+}
+.container {
+    background-color: rgb(53, 68, 68);
+    width: 330px;
+    height: 330px;
+    border-radius: 20px ;
+    left: 300px;
+    top: 300px;
+    position: relative;
+   
+}
+.container h2 {
+    
+    position: absolute;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    left: 80px;
+   top: 350px;
+  
+   text-shadow: 2px 2px 4px rgb(21, 173, 173); 
+}
+
+.container img {
+    cursor: pointer;
+    filter: grayscale(100%) blur(1px);
+    transition: 1s;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    left: 30px;
+    top: 70px;
+    border-radius: 20px;
+    position: absolute;
+   
+}
+.container img:hover {
+    filter: grayscale(0) blur(0);
+    background-color: aqua;
+}
+.üst h1 {
+    position: absolute;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 700px;
+    top: 150px;
+    color: white;
+    transition: 5s;
+    text-shadow: 1px 1px 4px whitesmoke; 
+    cursor: pointer;
+    
+}
+.üst h1:hover{
+    transform: rotate(5deg);
+}
+
+.üst p:hover {
+    transform: scale(1.02); 
+    
+}
+
+.üst p {
+    position: absolute;
+    left: 700px;
+    top: 270px;
+    column-width: 800px;
+    column-fill: auto;
+    font-size: 30px;
+    text-shadow: 1px 1px 4px rgb(255, 255, 102); 
+    color: rgb(255, 255, 102);
+   
+    
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+.iletişim {
+   
+    position: relative;
+    
+    top: 530px;
+}
+.iletişim img {
+    width: 40px;
+    height: 40px;
+    filter: grayscale(60%);
+    transition: 1s;
+    cursor: pointer;
+}
+.iletişim img:hover {
+    filter: grayscale(0);
+    transform: scale(1.3);
+}
